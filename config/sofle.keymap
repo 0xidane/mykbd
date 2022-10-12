@@ -17,6 +17,33 @@
 #define RAISE       2
 
 
+/ {
+    combos {
+        compatible = "zmk,combos";
+
+	// arrow keys
+	combo_right {
+	timeout-ms = <50>;
+	key-positions = <27 28>; // KP: DF
+	bindings = <&kp RIGHT>; // 方便中文输入切换下一个选项，结合右手的JK enter，小键盘输入中文也毫无障碍
+		};
+	combo_left {
+	timeout-ms = <50>;
+	key-positions = <26 27>; // KP: SD
+	bindings = <&kp LEFT>; // 同上逻辑，方便中文输入。再加上强迫症，所以上下左右都放了，形成一个像游戏手柄的D-Pad
+		};
+	combo_up{
+	timeout-ms = <50>;
+	key-positions = <15 27>; // KP: ED 
+	bindings = <&kp UP>; // 上下键不怎么用，一些需要用上下左右的组合软件功能键，我都放在切层里，用上一篇中方向键的位置。如果使用的话是直接按两个键中间
+		};
+	combo_down {
+	timeout-ms = <50>;
+	key-positions = <27 39>; // KP: DX
+	bindings = <&kp DOWN>; 
+		};
+	};
+};
 
 
 / {
