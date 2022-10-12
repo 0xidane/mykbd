@@ -51,7 +51,7 @@
 		};
 	combo_slash {
 	timeout-ms = <50>;
-	key-positions = <32 43>; // KP: KN
+	key-positions = <32 45>; // KP: KN
 	bindings = <&kp FSLH>; 
 		};
 	};
