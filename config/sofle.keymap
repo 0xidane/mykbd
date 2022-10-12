@@ -12,10 +12,10 @@
 &left_encoder { resolution = <2>; };
 &right_encoder { resolution = <2>; };
 
-#define BASE        0
+#define DEFAULT     0
 #define LOWER       1
 #define RAISE       2
-#define NEXT        3
+#define NUM         3
 
 
 
@@ -78,7 +78,7 @@
 
             sensor-bindings = <&inc_dec_kp DOWN UP &inc_dec_kp RIGHT LEFT>;
         };
-        next_layer {
+        num_layer {
 // ------------------------------------------------------------------------------------------------------------
 // |  `    |  1  |  7  |  8   |  9   |  /   |                   |  6   |  7    |  8    |  9   |   0   | BKSPC |
 // |  ESC  |  Q  |  4  |  5   |  6   |  *   |                   |  Y   |  U    |  I    |  O   |   P   |   \   |
