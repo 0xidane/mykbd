@@ -12,6 +12,11 @@
 &left_encoder { resolution = <2>; };
 &right_encoder { resolution = <2>; };
 
+#define BASE        0
+#define LOWER       1
+#define RAISE       2
+#define NEXT        3
+
 / {
     keymap {
         compatible = "zmk,keymap";
