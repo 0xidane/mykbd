@@ -102,7 +102,7 @@
 	key-positions = <9 10>; // KP: 90
 	bindings = <&kp EQUAL>; 
 		};
-	combo_bkspc {
+	combo_bspc {
 	timeout-ms = <50>;
 	key-positions = <0 1>; // KP: `1
 	bindings = <&kp BSPC>; 
@@ -110,12 +110,12 @@
 	combo_dell {
 	timeout-ms = <50>;
 	key-positions = <12 1>; // KP: ESC1
-	bindings = <&kp BSPC>; 
+	bindings = <&kp DEL>; 
 		};
 	combo_delr {
 	timeout-ms = <50>;
 	key-positions = <10 23>; // KP: 0\
-	bindings = <&kp BSPC>; 
+	bindings = <&kp DEL>; 
 		};
 	combo_qmark {
 	timeout-ms = <50>;
@@ -192,7 +192,7 @@
 // | SHIFT |     |  3  |  2   |	 1	 |      |  MUTE  |  | CAPS  |  B   |  1   |  2  |  3   |ENTER|   /   |
 //               |ENTER| .	  |  0	 | LOWER|  SPACE |  | SPACE | RAISE|  0   |  .  | GUI  |
             bindings = <
-&trans	 &kp BKSPC 		&kp KP_MULTIPLY   &kp FSLH &tog NUM  &kp DEL                &kp N6	&tog NUM  &kp FSLH  &kp KP_MULTIPLY &kp N0	  	&trans
+&trans	 &kp BSPC 		&kp KP_MULTIPLY   &kp FSLH &tog NUM  &kp DEL                &kp N6	&tog NUM  &kp FSLH  &kp KP_MULTIPLY &kp N0	  	&trans
 &trans   &kp MINUS  	&kp N9   		  &kp N8   &kp N7    &trans                 &kp Y	&kp N7    &kp N8    &kp N9 		  	&kp MINUS	&trans
 &trans   &kp KP_PLUS  	&kp N6   		  &kp N5   &kp N4    &trans                 &kp H	&kp N4    &kp N5    &kp N6 		  	&kp KP_PLUS &trans
 &trans	 &trans 		&kp N3   		  &kp N2   &kp N1    &trans	&trans  &trans  &kp B	&kp N1    &kp N2    &kp N3 		  	&kp RET	  	&trans
