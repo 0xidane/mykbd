@@ -44,33 +44,33 @@
 	bindings = <&kp DOWN>; 
 		};
 	
-	// 括号
-	combo_ll{
+	// {}[]()
+	combo_lbrc{
 	timeout-ms = <50>;
 	key-positions = <16 17>; // KP: RT
 	bindings = <&kp LBRC>; 
 		};
-	combo_lr{
+	combo_rbrc{
 	timeout-ms = <50>;
 	key-positions = <18 19>; // KP: YU
 	bindings = <&kp RBRC>; 
 		};
-	combo_ml{
+	combo_lbkt{
 	timeout-ms = <50>;
 	key-positions = <28 29>; // KP: FG
 	bindings = <&kp LBKT>; 
 		};
-	combo_mr{
+	combo_rbkt{
 	timeout-ms = <50>;
 	key-positions = <30 31>; // KP: HJ
 	bindings = <&kp RBKT>; 
 		};
-	combo_sl{
+	combo_lpar{
 	timeout-ms = <50>;
 	key-positions = <40 41>; // KP: CV
 	bindings = <&kp LPAR>; 
 		};
-	combo_sr{
+	combo_rpar{
 	timeout-ms = <50>;
 	key-positions = <44 45>; // KP: BN
 	bindings = <&kp RPAR>; 
