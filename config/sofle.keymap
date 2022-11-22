@@ -141,7 +141,7 @@
 &kp GRAVE &kp N1    &kp N2   &kp N3   &kp N4    &kp N5                        &kp N6     &kp N7    &kp N8    &kp N9    &kp N0   &kp BSPC
 &kp ESC   &kp Q     &kp W    &kp E    &kp R     &kp T			              &kp Y      &kp U     &kp I     &kp O     &kp P    &kp BSLH
 &kp TAB   &kp A     &kp S    &kp D    &kp F     &kp G                         &kp H      &kp J     &kp K     &kp L     &kp SEMI &kp RET
-&kp LSHFT &tog NUM &kp Z    &kp X    &kp C     &kp V  &kp C_MUTE   &tog 4	  &kp B      &kp N     &kp M     &kp COMMA &kp DOT  &kp FSLH
+&kp LSHFT &tog NUM &kp Z    &kp X    &kp C     &kp V  &kp C_MUTE    &tog NULL &kp B      &kp N     &kp M     &kp COMMA &kp DOT  &kp FSLH
                  &kp LGUI &kp LALT &kp LCTRL &lt 1 RET &kp SPACE    &kp SPACE &lt 2 RET  &kp RCTRL &kp RALT  &kp RGUI
             >;
 
@@ -186,7 +186,7 @@
         };
 	num_layer {
 // ------------------------------------------------------------------------------------------------------------
-// |  `    |BKSPC|  *  |  /   | tog0 |  DEL |                   |  6   | tog4 |  /  |  *   |     | BKSPC |
+// |  `    |BKSPC|  *  |  /   | tog3 |  DEL |                   |  6   | tog3 |  /  |  *   |     | BKSPC |
 // |  ESC  |  -  |  9  |  8   |  7   |      |                   |  Y   |  7   |  8  |  9   |  -  |   \   |
 // |  TAB  |  +  |  6  |  5   |  4   |      |                   |  H   |  4   |  5  |  6   |  +  | ENTER |
 // | SHIFT |     |  3  |  2   |	 1	 |      |  MUTE  |  | CAPS  |  B   |  1   |  2  |  3   |ENTER|   /   |
@@ -206,10 +206,10 @@
 &none &none &none &none &none &none     					&none &none &none &none &none &none
 &none &none &none &none &none &none     					&none &none &none &none &none &none
 &none &none &none &none &none &none     					&none &none &none &none &none &none
-&none &none &none &none &none &none     &none  &tog 4		&none &none &none &none &none &none
+&none &none &none &none &none &none     &none  &tog NULL	&none &none &none &none &none &none
         	&none &none &none &none     &none  &none   		&none &none &none &none
             >;
-
+            sensor-bindings = <&inc_dec_kp UP _DN &inc_dec_kp DOWN UP>;
         };
 
     };
