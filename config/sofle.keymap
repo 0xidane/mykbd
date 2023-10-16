@@ -312,11 +312,11 @@
 // |       |  =  |  -  |  +   |  {   |  }   |  oble  |  |       |  [   |  ]    |  ;    |  :   |   ?   |       |
 //               |     |      |      |      |        |  |       |      |       |       |      |
             bindings = <
-&kp DEL		&kp F1				&kp F2			&kp F3		&kp F4		&kp F5							&kp F6		&kp F7		&kp F8			&kp F9		&kp F10		&kp F11
-&kp BSPC	&kp LC(LS(LA(Q)))	&kp N7			&kp N8		&kp N9		&kp LC(LS(T))					&kp N1		&kp N2		&kp N3			&kp N4		&kp N5		&kp F12
-&trans		&kp N6				&kp LS(LG(S))	&kp HASH	&kp N0		&kp DOT							&kp CARET	&kp AMPS	&kp KP_MULTIPLY	&kp LPAR	&kp RPAR	&kp SQT
-&trans		&kp EQUAL			&kp MINUS		&kp KP_PLUS	&kp LBRC	&kp RBRC	&OUT_BLE	&trans  &kp LBKT	&kp RBKT	&kp SEMI		&kp COLON	&kp QMARK	&trans
-								&trans			&trans		&trans		&trans		&trans		&trans  &trans		&trans		&trans			&trans
+&kp DEL		&kp F1				&kp F2			&kp F3		&kp F4		&kp F5								&kp F6		&kp F7		&kp F8			&kp F9		&kp F10		&kp F11
+&kp BSPC	&kp LC(LS(LA(Q)))	&kp N7			&kp N8		&kp N9		&kp LC(LS(T))						&kp N1		&kp N2		&kp N3			&kp N4		&kp N5		&kp F12
+&trans		&kp N6				&kp LS(LG(S))	&kp HASH	&kp N0		&kp DOT								&kp CARET	&kp AMPS	&kp KP_MULTIPLY	&kp LPAR	&kp RPAR	&kp SQT
+&trans		&kp EQUAL			&kp MINUS		&kp KP_PLUS	&kp LBRC	&kp RBRC	&out OUT_BLE	&trans  &kp LBKT	&kp RBKT	&kp SEMI		&kp COLON	&kp QMARK	&trans
+								&trans			&trans		&trans		&trans		&trans			&trans  &trans		&trans		&trans			&trans
             >;
 
             sensor-bindings = <&inc_dec_kp PG_DN PG_UP &inc_dec_kp UP DOWN>;
