@@ -180,7 +180,7 @@
 		};
 	combo_rbrc{
 	timeout-ms = <50>;
-	key-positions = <18 19>; // KP: YU
+	key-positions = <19 20>; // KP: YU
 	bindings = <&kp RBRC>; 
 	layers = <0 1 2 3>;
 		};
@@ -192,7 +192,7 @@
 		};
 	combo_rbkt{
 	timeout-ms = <50>;
-	key-positions = <30 31>; // KP: HJ
+	key-positions = <31 32>; // KP: HJ
 	bindings = <&kp RBKT>; 
 	layers = <0 1 2 3>;
 		};
@@ -204,7 +204,7 @@
 		};
 	combo_rpar{
 	timeout-ms = <50>;
-	key-positions = <44 45>; // KP: BN
+	key-positions = <45 46>; // KP: BN
 	bindings = <&kp RPAR>; 
 	layers = <0 1 2 3>;
 		};
@@ -218,7 +218,7 @@
 		};
 	combo_slash {
 	timeout-ms = <50>;
-	key-positions = <32 45>; // KP: KN
+	key-positions = <33 46>; // KP: KN
 	bindings = <&kp FSLH>; 
 	layers = <0 1 2 3>;
 		};
