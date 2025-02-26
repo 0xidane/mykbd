@@ -260,14 +260,8 @@
 		};
 	combo_delr {
 	timeout-ms = <50>;
-	key-positions = <10 23>; // KP: 0\
+	key-positions = <10 23>; // KP: 0BSLH
 	bindings = <&kp DEL>; 
-	layers = <0 1 2 3>;
-		};
-	combo_qmark {
-	timeout-ms = <50>;
-	key-positions = <48 49>; // KP: DOTFSLH
-	bindings = <&kp QMARK>; 
 	layers = <0 1 2 3>;
 		};
 	combo_quote {
@@ -278,7 +272,7 @@
 		};
 	combo_semi {
 	timeout-ms = <50>;
-	key-positions = <47 48>; // KP: M,
+	key-positions = <47 48>; // KP: MCOMMA
 	bindings = <&kp SEMI>; 
 	layers = <0 1 2 3>;
 		};
