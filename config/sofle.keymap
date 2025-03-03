@@ -248,7 +248,7 @@
 		};
 	combo_bspr {
 	timeout-ms = <50>;
-	key-positions = <10 11>; // KP: 90
+	key-positions = <22 23>; // KP: OP
 	bindings = <&kp BSPC>; 
 	layers = <0 1 2 3>;
 		};
