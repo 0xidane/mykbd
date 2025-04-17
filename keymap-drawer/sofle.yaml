@@ -13,7 +13,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - ESC
+  - Esc
   - Q
   - W
   - E
@@ -25,7 +25,7 @@ layers:
   - I
   - O
   - P
-  - TAB
+  - ↹
   - A
   - S
   - D
@@ -36,14 +36,14 @@ layers:
   - J
   - K
   - L
-  - RET
-  - LSHFT
+  - ⏎
+  - $$mdi:apple-keyboard-shift$$
   - {t: num, h: toggle}
   - Z
   - X
   - C
   - V
-  - OUT BLE
+  - Out BLE
   - {t: last, h: toggle}
   - ''
   - B
@@ -51,18 +51,18 @@ layers:
   - M
   - ','
   - {t: ., h: RSHIFT}
-  - LGUI
-  - LALT
-  - LCTRL
-  - {t: RET, h: lower}
-  - SPACE
-  - SPACE
-  - {t: RET, h: raise}
-  - RCTRL
-  - RALT
-  - RGUI
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - {t: ⏎, h: lower}
+  - ␣
+  - ␣
+  - {t: ⏎, h: raise}
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-command$$
   lower:
-  - DEL
+  - ⌦
   - F1
   - F2
   - F3
@@ -74,7 +74,7 @@ layers:
   - F8
   - F9
   - F10
-  - BSPC
+  - $$mdi:backspace-outline$$
   - Meh+Q
   - '7'
   - '8'
@@ -93,7 +93,7 @@ layers:
   - '0'
   - .
   - ''
-  - '&'
+  - AMPS
   - KP MULTIPLY
   - {t: ▽, type: trans}
   - '5'
@@ -103,7 +103,7 @@ layers:
   - '-'
   - KP PLUS
   - {t: ▽, type: trans}
-  - OUT USB
+  - Out USB
   - '&soft_off'
   - {t: ▽, type: trans}
   - ''
@@ -124,40 +124,40 @@ layers:
   - {t: ▽, type: trans}
   raise:
   - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
   - ''
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
+  - BT 1
+  - BT 2
+  - BT 3
+  - BT 4
+  - BT 5
   - {t: ▽, type: trans}
-  - INS
-  - PSCRN
+  - Insert
+  - Print Scrn
   - CMENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ''
-  - PG UP
-  - HOME
-  - UP
-  - END
+  - Page Up
+  - Home
+  - ↑
+  - End
   - '&studio_unlock'
   - {t: ▽, type: trans}
-  - LALT
-  - LCTRL
-  - LSHFT
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - CLCK
   - ''
-  - PG DN
-  - LEFT
-  - DOWN
-  - RIGHT
+  - Page Down
+  - ←
+  - ↓
+  - →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UNDO
@@ -165,7 +165,7 @@ layers:
   - COPY
   - PASTE
   - {t: ▽, type: trans}
-  - OUT USB
+  - Out USB
   - {t: ▽, type: trans}
   - ''
   - BT CLR
@@ -185,11 +185,11 @@ layers:
   - {t: ▽, type: trans}
   num:
   - {t: ▽, type: trans}
-  - BSPC
+  - $$mdi:backspace-outline$$
   - KP MULTIPLY
   - /
   - {t: num, h: toggle}
-  - DEL
+  - ⌦
   - {t: ▽, type: trans}
   - {t: num, h: toggle}
   - /
@@ -232,9 +232,9 @@ layers:
   - '1'
   - '2'
   - '3'
-  - RET
+  - ⏎
   - {t: ▽, type: trans}
-  - RET
+  - ⏎
   - .
   - '0'
   - {t: ▽, type: trans}
@@ -307,16 +307,16 @@ layers:
   - ''
 combos:
 - p: [27, 28]
-  k: RIGHT
+  k: →
   l: [default, lower, raise, num]
 - p: [26, 27]
-  k: LEFT
+  k: ←
   l: [default, lower, raise, num]
 - p: [15, 27]
-  k: UP
+  k: ↑
   l: [default, lower, raise, num]
 - p: [27, 39]
-  k: DOWN
+  k: ↓
   l: [default, lower, raise, num]
 - p: [16, 17]
   k: '{'
@@ -327,15 +327,19 @@ combos:
 - p: [28, 29]
   k: '['
   l: [default, lower, raise, num]
+  draw_separate: true
 - p: [31, 32]
   k: ']'
   l: [default, lower, raise, num]
+  draw_separate: true
 - p: [40, 41]
   k: (
   l: [default, lower, raise, num]
+  draw_separate: true
 - p: [45, 46]
   k: )
   l: [default, lower, raise, num]
+  draw_separate: true
 - p: [27, 40]
   k: \
   l: [default, lower, raise, num]
@@ -343,7 +347,7 @@ combos:
   k: /
   l: [default, lower, raise, num]
 - p: [24, 25]
-  k: CAPS
+  k: Caps Lock
   l: [default, lower, raise, num]
 - p: [9, 10]
   k: '-'
@@ -352,16 +356,16 @@ combos:
   k: '='
   l: [default, lower, raise, num]
 - p: [0, 1]
-  k: BSPC
+  k: $$mdi:backspace-outline$$
   l: [default, lower, raise, num]
 - p: [22, 23]
-  k: BSPC
+  k: $$mdi:backspace-outline$$
   l: [default, lower, raise, num]
 - p: [1, 12]
-  k: DEL
+  k: ⌦
   l: [default, lower, raise, num]
 - p: [10, 23]
-  k: DEL
+  k: ⌦
   l: [default, lower, raise, num]
 - p: [2, 13]
   k: ''''
@@ -369,3 +373,4 @@ combos:
 - p: [47, 48]
   k: ;
   l: [default, lower, raise, num]
+  draw_separate: true
