@@ -1,2 +1,2 @@
 ## keymap sofle
-[![keymap-drawer-demo-sofle](keymap-drawer/sofle.svg)]
+![keymap-drawer-demo-sofle](keymap-drawer/sofle.svg)
