@@ -38,6 +38,9 @@
         triggers-per-rotation = <30>;
     };
 };
+&soft_off {
+	hold-time-ms = <2000>; /* 按住2秒关掉键盘. */
+};
 / {
     macros {
 // System and Power
