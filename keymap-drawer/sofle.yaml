@@ -105,7 +105,7 @@ layers:
   - {t: ▽, type: trans}
   - Out USB
   - '&soft_off'
-  - {t: ▽, type: trans}
+  - MUTE
   - ''
   - ''
   - ;
